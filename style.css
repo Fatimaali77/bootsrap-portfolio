@@ -1,0 +1,32 @@
+  .body
+   { background: #f8fafc; 
+}
+.container2
+  { background-color: #d0d3d6;
+   max-width: 1200px;
+   
+  }
+
+.profile-img 
+    { width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 12px; 
+        }
+      
+
+.skills-row {
+  --bs-gutter-x: 9.5rem; 
+  --bs-gutter-y: 2.5rem; 
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;   
+}
+
+.last-about {
+  margin-bottom:7.5rem; 
+}
+
+  
