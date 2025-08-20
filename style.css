@@ -11,24 +11,13 @@ body {
   background: #fff;
 }
 
-.container2
-  { background-color: #d0d3d6;
-   max-width: 1200px;
-   
-  }
-
-  .full-width-bg {
-  background: #f8fafc;
-  width: 100vw;
-position: relative;
-
-}
 
 .profile-img 
-    { width: 200px;
-    height: 200px;
+    { width: 300px;
+    height: 300px;
     object-fit: cover; 
     border-radius: 12px; 
+
         }
       
 

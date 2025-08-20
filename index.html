@@ -8,25 +8,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container py-4">
+  <div class="container my-5">
     <!-- Header -->
     <div class="d-flex justify-content-between align-items-center mb-4">
       <div>
-        <h2 class="mb-0"><span> < SS </span> /></h2>
+        <h1 class="mb-0"><span> < SS </span> /></h1>
       </div>
       <nav>
         <a href="#" class="me-3 text-decoration-none text-dark">About</a>
         <a href="#" class="me-3 text-decoration-none text-dark">Work</a>
         <a href="#" class="me-3 text-decoration-none text-dark">Testimonials</a>
         <a href="#" class="me-3 text-decoration-none text-dark">Contact</a>
-        <a href="#" class="btn btn-dark btn-sm">Download CV</a>
+        <img src="./images/Icon Button.png" alt="">
+        <a href="#" class="btn btn-dark btn-sm rounded-3">Download CV</a>
       </nav>
     </div>
 
     <!-- Hero Section -->
     <div class="row align-items-center mb-5">
       <div class="col-md-8">
-        <h1>Hi, I'm Sagar <span>👋</span></h1>
+        <h1 class="fw-bold">Hi, I'm Sagar <span>👋</span></h1>
         <p class="text-muted">
           I'm a full stack developer based in India, with a focus on creating (and occasionally designing)
            exceptional digital experiences that are fast, accessible, visually appealing, and responsive.
@@ -45,19 +46,19 @@
         </div>
       </div>
       <div class="col-md-4 text-md-end text-center">
-        <img src="./images/Pic Container.png" alt="Profile" class="profile-img shadow">
+        <img src="./images/Pic Container.png" alt="Profile" class="profile-img">
       </div>
     </div>
 
     <!-- About Section -->
 
-    <div class="row align-items-center mb-5 py-5">
+    <div class="row align-items-center mb-5 py-2 px-4" style="background: #f8fafc;">
       <div class="col-md-4 text-center">
-        <img src="./images/Pic Container-1.png" alt="About" class="img-fluid rounded shadow">
+        <img src="./images/Pic Container-1.png" alt="About" class="img-fluid rounded">
       </div>
-      <div class="col-md-8 px-4">
-      <span class="badge bg-light text-dark col-md-4  mb-2">About me</span>
-        <h2 class="section-title">Curious about me? Here you have it:</h2>
+      <div class=" offset-2 col-md-6 px-4">
+      <span class="badge bg-light text-dark col-md-4 mb-2">About me</span>
+        <h2 class="section-title" style="font-size: 30px;">Curious about me? Here you have it:</h2>
         <p>
          I am passionate, self proclaimed designer, who specializes in full stack development (React.js, Node.js). 
          I am enthusiastic about bringing the technical and visual aspects of digital products
@@ -81,7 +82,7 @@
                  href="https://twitter.com/shahsagarm">Twitter</a>
                 where I share tech-related bites and build in public, or you can follow me on
                 <a target="blank" class="underline "
-                 href="https://www.linkedin.com/in/shahsagarm/">LinkedIn</a>
+                 href="https://www.github.com/in/shahsagarm/">GitHub</a>
                 where I share my professional journey and connect with other professionals.
                 href="https://github.com/shahsagarm">GitHub</a>
                 </p>
@@ -107,13 +108,13 @@
           free to reach out and say hello! I promise I don't bite 😉</div>
 
     </div>
-
+    </div>
     <!-- Skills Section -->
- <div class="col-md-12 text-center mb-5">
-  <span class="badge bg-light text-dark mb-2">Skills</span>
-  <h3 class="text-center section-title g-4">
+ <div class="col-md-12 text-center mb-5" >
+  <span class="badge bg-light mb-2" style="color: #6c757d;">Skills</span>
+  <h5 class="text-center section-title g-4" style="margin-bottom: 50px; color: #6c757d;">
     The skills, tools and technologies I am really good at:
-  </h3>
+  </h5>
 
   <div class="row text-center skills-row g-5">
     <div class="col-3 col-md-1"><img src="./images/Tech.png" class="icon" alt="JavaScript"></div>
@@ -142,16 +143,16 @@
     <h2 class="mb-4 fw-normal text-secondary" style="font-size: 1.1rem; text-align: center;">
       Here is a quick summary of my most recent experiences:
     </h2>
-    <div class="w-100" style="max-width: 700px;">
+    <div class="w-100" style="max-width: 800px;">
       <!-- Card 1 -->
       <div class="card mb-4 shadow-sm border-0 rounded-4" style="background: #fff;">
         <div class="card-body p-4">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-top">
             <div class="d-flex flex-column align-items-center me-3" style="min-width:60px;">
               <img src="./images/upwork.png" alt="Upwork" style="height:28px;">
               <div style="height:32px;"></div>
             </div>
-            <div class="flex-grow-1 d-flex flex-column justify-content-center">
+            <div class="flex-grow-1 d-flex flex-column justify-content-center offset-2 col-4">
               <div class="d-flex align-items-center mb-2">
              
                 <span class="fw-semibold ms-2">Sr. Frontend Developer</span>
@@ -172,12 +173,12 @@
       <!-- Card 2 -->
       <div class="card mb-4 shadow-sm border-0 rounded-4" style="background: #fff;">
         <div class="card-body p-4">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-top">
             <div class="d-flex flex-column align-items-center me-3" style="min-width:60px;">
               <img src="./images/upwork.png" alt="Upwork" style="height:28px;">
               <div style="height:32px;"></div>
             </div>
-            <div class="flex-grow-1 d-flex flex-column justify-content-center">
+            <div class="flex-grow-1 d-flex flex-column justify-content-center offset-2 col-4">
               <div class="d-flex align-items-center mb-2">
              
                 <span class="fw-semibold ms-2">Team Lead</span>
@@ -196,19 +197,24 @@
         </div>
       </div>
       <!-- Card 3 -->
-      <div class="card mb-4 shadow-sm border-0 rounded-4" style="background: #fff;">
+  <div class="card mb-4 shadow-sm border-0 rounded-4" style="background: #fff;">
         <div class="card-body p-4">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-top">
             <div class="d-flex flex-column align-items-center me-3" style="min-width:60px;">
               <img src="./images/upwork.png" alt="Upwork" style="height:28px;">
               <div style="height:32px;"></div>
             </div>
-            <div class="flex-grow-1 d-flex flex-column justify-content-center">
+            <div class="flex-grow-1 d-flex flex-column justify-content-center offset-2 col-4">
               <div class="d-flex align-items-center mb-2">
-                <span class="fw-semibold ms-4">Full Stack Developer</span>
+             
+                <span class="fw-semibold ms-2">Team Lead</span>
               </div>
               <ul class="mb-0" style="color: #6c757d; font-size: 0.98rem;">
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+               
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Sed quis justo ac magna. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              
               </ul>
             </div>
             <div class="text-end text-secondary small ms-3" style="min-width: 140px;">
@@ -233,8 +239,7 @@
        <div class="card shadow-sm border-0 rounded-4 p-3" style="background: #fff;">
   <div class="row g-0">
     <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
-       <img src="./images/wond-header.png" class="wond-head-img" 
-                alt="Project 2">
+        <img src="./images/wond-header.png" class="wond-head-img">
     </div>
     <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
       <div class="card-body">
@@ -321,7 +326,7 @@
 </section>
     <!-- Testimonials Section -->
 
-<section class="py-5" style="background: #f8fafc;">
+<section class="py-5" style="background: #f8f8f8;">
   <div class="container d-flex flex-column align-items-center">
     <span class="badge bg-light text-secondary mb-2" style="font-size: 0.9rem; font-weight: 500;">Testimonials</span>
     <div class="mb-4 fw-normal text-secondary" style="font-size: 1.05rem; text-align: center;">
@@ -332,10 +337,7 @@
       <div class="col-md-4 mb-4 d-flex">
         <div class="card shadow-sm border-0 rounded-4 w-100 d-flex flex-column align-items-center p-4" style="background: #fff;">
           <div class="mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#adb5bd" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37c.69-1.19 2.065-2.37 5.468-2.37s4.778 1.18 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
+           <img src="./images/icon-avatar.png" alt="">
           </div>
           <div class="mb-3 text-center" style="color: #6c757d; font-size: 1.02rem;">
             "Job well done! I am really impressed. He is very good at what he does; I would recommend Sagar and will rehire in the future for Frontend development."
@@ -352,10 +354,7 @@
       <div class="col-md-4 mb-4 d-flex">
         <div class="card shadow-sm border-0 rounded-4 w-100 d-flex flex-column align-items-center p-4" style="background: #fff;">
           <div class="mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#adb5bd" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37c.69-1.19 2.065-2.37 5.468-2.37s4.778 1.18 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
+           <img src="./images/icon-avatar.png" alt="">
           </div>
           <div class="mb-3 text-center" style="color: #6c757d; font-size: 1.02rem;">
             "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team."
@@ -372,10 +371,7 @@
       <div class="col-md-4 mb-4 d-flex">
         <div class="card shadow-sm border-0 rounded-4 w-100 d-flex flex-column align-items-center p-4" style="background: #fff;">
           <div class="mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#adb5bd" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37c.69-1.19 2.065-2.37 5.468-2.37s4.778 1.18 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
+           <img src="./images/icon-avatar.png" alt="">
           </div>
           <div class="mb-3 text-center" style="color: #6c757d; font-size: 1.02rem;">
             “Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.”
